@@ -34,13 +34,15 @@ strategy_version → Identifies Strategy A (control) and Strategy B (treatment).
 
 profit_difference → return_after - return_before, measuring improvement.
 
+
 ### 📌 Business Problem
 
-#### 🚨 Many trading strategies fail to consistently improve profitability in financial markets.
+🚨 Many trading strategies fail to consistently improve profitability in financial markets.
 
 ⚠ We need an evidence-based approach to determine whether Strategy B significantly outperforms Strategy A.
 
 🎯 Understanding the conditions where Strategy B is most effective will allow for better optimization and risk management.
+
 
 ### 📌 Step-by-Step Approach
 
@@ -76,29 +78,22 @@ Built a linear regression model to identify the most impactful features.
 
 Developed a VBA macro to automate report generation.
 
-📌 Challenges & Solutions
 
-Challenge
+### 📌 Challenges & Solutions
 
-Solution
+#### Market conditions had no statistical significance:
 
-❌ Market conditions had no statistical significance
+Used Bayesian methods to confirm findings and validate strategy effectiveness.
 
-✅ Used Bayesian methods to confirm findings.
+#### Profitability varied by subgroup:
 
-❌ Profitability varied by subgroup
+Applied clustering analysis to identify ideal conditions for Strategy B.
 
-✅ Applied clustering to identify ideal conditions for Strategy B.
+#### Strategy B was not always profitable:
 
-❌ Strategy B was not always profitable
+Defined optimal conditions for its use and suggested refinements for improvement.
 
-✅ Defined optimal conditions for its use.
-
-❌ Automating report generation
-
-✅ Implemented a VBA macro for PowerPoint creation.
-
-📌 Results
+### 📌 Results
 
 📊 Strategy B significantly outperforms Strategy A (p = 0.0311, Bayesian probability = 99.04%).
 
@@ -108,7 +103,7 @@ Solution
 
 🔍 Strategy B is highly effective in Cluster 0 but ineffective in others.
 
-📌 Future Work
+### 📌 Future Work
 
 🔬 Optimize Strategy B for underperforming clusters.
 
@@ -120,11 +115,11 @@ Solution
 
 ### 📌 Key Takeaways
 
-✅ Strategy B is statistically proven to be better than Strategy A. <txt>
-✅ Market conditions do not significantly affect profitability. <txt>
-✅ Clustering analysis shows that Strategy B works best for specific trader groups. <txt>
-✅ Bayesian A/B Testing provides a robust confidence measure of effectiveness. <txt>
-✅ Automating reporting (VBA) improves efficiency in presenting findings. <txt>
+✅ Strategy B is statistically proven to be better than Strategy A. <br>
+✅ Market conditions do not significantly affect profitability. <br>
+✅ Clustering analysis shows that Strategy B works best for specific trader groups. <br>
+✅ Bayesian A/B Testing provides a robust confidence measure of effectiveness. <br>
+✅ Automating reporting (VBA) improves efficiency in presenting findings. <br>
 
 
 
