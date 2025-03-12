@@ -1,3 +1,6 @@
+![istockphoto-531935178-612x612](https://github.com/user-attachments/assets/c731d294-c9b3-4221-a28b-592b1be0bf93)
+
+
 ## Financial Market A/B Testing 
 
 ### 📌 Introduction
