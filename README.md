@@ -49,35 +49,35 @@ profit_difference → return_after - return_before, measuring improvement.
 
 ### 📌 Step-by-Step Approach
 
-🧹 Data Preprocessing & Cleaning:
+#### 🧹 Data Preprocessing & Cleaning:
 
 Converted date column, handled missing values, and removed duplicates.
 
 Standardized numeric variables.
 
-📊 Exploratory Data Analysis (EDA):
+#### 📊 Exploratory Data Analysis (EDA):
 
 Compared return_before and return_after distributions.
 
 Identified market trends impacting strategy effectiveness.
 
-📈 A/B Testing:
+#### 📈 A/B Testing:
 
 T-test → Checked for statistical significance between Strategy A and B.
 
 ANOVA → Analyzed market condition influence on profitability.
 
-📊 Bayesian A/B Testing:
+#### 📊 Bayesian A/B Testing:
 
 Estimated the probability of Strategy B outperforming Strategy A.
 
-🧠 Machine Learning (Clustering & Regression):
+#### 🧠 Machine Learning (Clustering & Regression):
 
 Used K-Means clustering to segment profitable trader groups.
 
 Built a linear regression model to identify the most impactful features.
 
-📑 PowerPoint Automation with VBA:
+#### 📑 PowerPoint Automation with VBA:
 
 Developed a VBA macro to automate report generation.
 
