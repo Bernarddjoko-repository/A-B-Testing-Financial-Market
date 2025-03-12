@@ -1,12 +1,12 @@
-Financial Market A/B Testing - GitHub Project Documentation
+## Financial Market A/B Testing 
 
-📌 Introduction
+### 📌 Introduction
 
-Project Overview
+### Project Overview
 
 This project explores A/B testing in financial markets to evaluate the effectiveness of an alternative trading strategy (Strategy B) against a baseline strategy (Strategy A). We leverage statistical hypothesis testing, Bayesian inference, and machine learning to analyze market performance and optimize trading decisions.
 
-Objective
+### Objective
 
 📊 Determine if Strategy B improves profitability compared to Strategy A.
 
@@ -14,13 +14,13 @@ Objective
 
 🔍 Identify key factors influencing profitability using machine learning.
 
-📌 Dataset Overview
+### 📌 Dataset Overview
 
-Data Source & Structure
+#### Data Source & Structure
 
 Dataset Size: 1000 trading records.
 
-Key Features:
+#### Key Features:
 
 price_before, price_after → Asset prices before and after the trade.
 
@@ -34,15 +34,15 @@ strategy_version → Identifies Strategy A (control) and Strategy B (treatment).
 
 profit_difference → return_after - return_before, measuring improvement.
 
-📌 Business Problem
+### 📌 Business Problem
 
-🚨 Many trading strategies fail to consistently improve profitability in financial markets.
+#### 🚨 Many trading strategies fail to consistently improve profitability in financial markets.
 
 ⚠ We need an evidence-based approach to determine whether Strategy B significantly outperforms Strategy A.
 
 🎯 Understanding the conditions where Strategy B is most effective will allow for better optimization and risk management.
 
-📌 Step-by-Step Approach
+### 📌 Step-by-Step Approach
 
 🧹 Data Preprocessing & Cleaning:
 
@@ -118,9 +118,13 @@ Solution
 
 📈 Deploy Strategy B in a real-world trading environment and track live performance.
 
-📌 Key Takeaways
+### 📌 Key Takeaways
 
-✅ Strategy B is statistically proven to be better than Strategy A.✅ Market conditions do not significantly affect profitability.✅ Clustering analysis shows that Strategy B works best for specific trader groups.✅ Bayesian A/B Testing provides a robust confidence measure of effectiveness.✅ Automating reporting (VBA) improves efficiency in presenting findings.
+✅ Strategy B is statistically proven to be better than Strategy A. <txt>
+✅ Market conditions do not significantly affect profitability. <txt>
+✅ Clustering analysis shows that Strategy B works best for specific trader groups. <txt>
+✅ Bayesian A/B Testing provides a robust confidence measure of effectiveness. <txt>
+✅ Automating reporting (VBA) improves efficiency in presenting findings. <txt>
 
 
 
